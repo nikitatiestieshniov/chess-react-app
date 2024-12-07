@@ -1,0 +1,80 @@
+/* File: Training.css */
+
+.training-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #2c3e50;
+}
+
+.training-controls {
+  margin-bottom: 20px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.mode-selection {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.mode-selection label {
+  margin: 0 15px;
+  font-size: 18px;
+}
+
+.training-options {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.training-options label {
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+.training-options select {
+  margin-right: 20px;
+  padding: 5px;
+  font-size: 16px;
+}
+
+.training-options button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #3498db;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.training-options button:disabled {
+  background-color: #95a5a6;
+  cursor: not-allowed;
+}
+
+.training-options button:hover:not(:disabled) {
+  background-color: #2980b9;
+}
+
+@media (max-width: 768px) {
+  .mode-selection label,
+  .training-options label,
+  .training-options select,
+  .training-options button {
+    margin-bottom: 10px;
+  }
+}

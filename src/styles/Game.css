@@ -1,0 +1,130 @@
+.game {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; 
+}
+
+
+.left-notation-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 200px;
+  margin-right: 20px;
+}
+
+.board-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.evaluation-container {
+  width: 100%; 
+  max-width: 320px; 
+  min-width: 320px; 
+  height: 200px; 
+  max-height: 200px;
+  min-height: 200px; 
+  overflow-y: auto; 
+  overflow-x: auto; 
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  margin-bottom: 10px; 
+  box-sizing: border-box; 
+}
+
+
+
+
+.notation-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 300px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  height: 500px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.notation-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.notation-half {
+  width: 48%;
+  text-align: center;
+  cursor: pointer; 
+}
+
+.notation-half:hover {
+  background-color: rgba(255, 255, 0, 0.3); 
+}
+
+.notation-half.selected-move:hover {
+  background-color: yellow; 
+}
+
+.selected-move {
+  background-color: yellow;
+  font-weight: bold;
+}
+
+.promotion-dialog {
+  transform: rotate(-90deg); 
+  transform-origin: center center; 
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.promotion-options {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
+  align-items: center; 
+
+.promotion-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  transition: transform 0.2s; 
+}
+
+.promotion-button:hover {
+  transform: scale(1.1); 
+}
+
+.promotion-button svg {
+  width: 45px;
+  height: 45px;
+  transform: rotate(90deg);
+}
+.timed-puzzles-container {
+    display: flex;
+    align-items: flex-start;
+}
+
+.timed-puzzles-info {
+    margin-right: 20px;
+}
+
+
+
+.time-buttons-left {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-bottom: 20px; 
+}

@@ -1,0 +1,90 @@
+/* File: Moves.css */
+
+.moves {
+  margin-top: 20px;
+}
+
+.moves h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #2c3e50;
+}
+
+.moves textarea {
+  width: 100%;
+  max-width: 600px;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #bdc3c7;
+  border-radius: 5px;
+  resize: vertical;
+}
+
+.moves-buttons {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.moves-buttons input[type="file"] {
+  margin-right: 10px;
+}
+
+.moves-buttons button {
+  margin-right: 10px;
+  padding: 8px 15px;
+  font-size: 14px;
+  background-color: #3498db;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.moves-buttons button:hover {
+  background-color: #2980b9;
+}
+
+@media (max-width: 768px) {
+  .moves textarea {
+    max-width: 100%;
+  }
+
+  .moves-buttons {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .moves-buttons input[type="file"],
+  .moves-buttons button {
+    margin-bottom: 10px;
+  }
+}
+
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+    button:hover {
+        background-color: #0056b3;
+    }
+
+.moves-buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.time-buttons {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
