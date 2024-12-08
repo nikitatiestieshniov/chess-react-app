@@ -1,70 +1,62 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Chess Application Readme
+Project Description
+This project is a chess application developed using React and Electron, which includes features like puzzle solving, analysis, and game recording. The application is designed to be versatile and extensible for both casual players and enthusiasts interested in improving their chess skills.
 
-## Available Scripts
+Features
+Interactive Chessboard: Play chess and analyze games interactively.
+Puzzle Solving: Solve chess puzzles with adjustable difficulty.
+Game Analysis: Analyze positions with move suggestions from databases.
+Neo4j Integration: Utilizes Neo4j for advanced position and move analysis.
+Installation and Setup
+Prerequisites
+Node.js (v16 or later)
+npm or yarn
+Steps to Run the Application
+Clone the repository:
 
-In the project directory, you can run:
+bash
+Копировать код
+git clone <repository-url>
+cd chess
+Install dependencies:
 
-### `npm start`
+bash
+Копировать код
+npm install
+Start the development server:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+bash
+Копировать код
+npm run start
+To run the Electron app:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+bash
+Копировать код
+npm run electron-start
+Neo4j Database Setup
+The Neo4j database files are not included in this repository due to storage limitations. To fully test the application:
 
-### `npm test`
+Download the database files from this Google Drive link.
+Extract the files to the resources/neo4j directory.
+Note: The extraction process might take a significant amount of time due to the file size.
+Ensure Neo4j is installed and running on your machine, or use the provided neo4j start command if configured in the application.
+Known Limitations
+Neo4j Integration
+The live demo site does not utilize Neo4j due to resource constraints on the server.
+On local setups, the Neo4j database is required for the full functionality of the analysis feature.
+Performance
+The application may experience delays when loading large datasets or performing complex analyses.
+Development
+Scripts
+npm start: Starts the React development server.
+npm run electron-start: Starts the Electron application.
+npm run build: Builds the React app for production.
+npm run electron-pack: Packages the Electron app into a distributable format.
+Contributing
+Contributions are welcome! Please fork the repository and submit a pull request for review.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Contact
+For questions or support, please contact Your Name.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Enjoy playing and improving your chess skills!
