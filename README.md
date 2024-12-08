@@ -60,7 +60,7 @@ You can start Neo4j in one of the following ways:
 
 1. Navigate to the `bin` directory of the extracted Neo4j files and run:
   
-neo4j console---
+neo4j console
 
 ## Deployment
 
