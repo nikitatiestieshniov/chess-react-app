@@ -49,7 +49,18 @@ To enable Neo4j-based features:
 
 If you are running the app in a resource-constrained environment, Neo4j functionality may be disabled to optimize performance.
 
----
+
+### Start Neo4j along with SQLite by running the server:
+node server.js
+
+
+### Starting Neo4j
+
+You can start Neo4j in one of the following ways:
+
+1. Navigate to the `bin` directory of the extracted Neo4j files and run:
+   ```bash
+neo4j console---
 
 ## Deployment
 
